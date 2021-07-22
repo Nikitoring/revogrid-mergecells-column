@@ -1,0 +1,47 @@
+{
+  "name": "@revolist/revogrid-mergecells-column",
+  "version": "1.0.0",
+  "description": "Column type with merged cells",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack --config ./.webpack/webpack.config.js",
+    "serve": "webpack serve --config ./.webpack/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikitoring/revogrid-mergecells-column.git"
+  },
+  "keywords": [
+    "grid",
+    "excel",
+    "datagrid",
+    "vuegrid",
+    "reactgrid",
+    "revogrid"
+  ],
+  "author": "Nikitoring",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nikitoring/revogrid-mergecells-column/issues"
+  },
+  "homepage": "https://github.com/Nikitoring/revogrid-mergecells-column#readme",
+  "devDependencies": {
+    "@revolist/revogrid": "latest",
+    "@revolist/vue-datagrid": "^1.1.1",
+    "@stencil/core": "^2.3.0",
+    "@types/lodash": "^4.14.149",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^3.9.1",
+    "eslint-loader": "^1.6.1",
+    "html-webpack-plugin": "^4.5.0",
+    "lodash": "^4.17.20",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.6",
+    "typescript": "^4.0.3",
+    "vue": "^2.6.12",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^1.16.5"
+  }
+}
